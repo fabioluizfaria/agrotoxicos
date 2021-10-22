@@ -1,0 +1,158 @@
+*{
+    color:#002002;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: 500;
+}
+
+body{
+    color:#002002;
+}
+
+header{
+    padding: 0;
+    background-color: #b9f0bd;
+    box-shadow: 0px 0px 9px 0px #0d7a1470;
+    position: fixed;
+    top:0;
+    left: 0;
+   width: 100%;
+   
+}
+
+.header__header{
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.header__div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 650px;
+}
+
+.header__icone{
+    width: 58px;
+    padding: 2px;
+    margin: 10px;
+    opacity: 85%;
+}
+
+.header__span{
+    margin-left: 12px;
+    color: #0d4911
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    color: #0d4911;
+    text-shadow: 4px 2px 3px #98da9d;
+}
+
+nav{
+    align-items: center;
+    display: flex; 
+    flex: 1;
+    margin-right: 10px;
+    justify-content: right;
+    max-width: 100%;
+    width: 100%;
+}
+    
+
+ul{
+    justify-content: flex-end!important;
+    display: flex;
+    margin: 0; 
+}
+
+.nav__lista{
+
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    margin: auto;
+    margin-left: 8px;
+    font-family:'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.nav__lista--inicio{
+    padding: 5px;
+    text-decoration: none;
+    color: #319b31;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--quemsomos{
+    padding: 5px;
+    text-decoration: none;
+    color: #063509;
+    text-shadow: 1px 1px #8fc592d0;
+}
+
+.nav__lista--quemsomos:hover{
+    color: #2b6d2b; 
+}
+
+.nav__lista--contatos{
+    text-decoration: none;
+    color: #ecfff0;
+    font-size: 16px;
+    background-color: #16581acb;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px; 
+    padding-right: 5px; 
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+footer{
+    display: flex;
+    margin-top: 580px;
+    background-color:  #6bc571;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    width: 130px;
+    height: 38px;
+    padding: 7px;
+    align-items: center;
+    justify-content: left;
+}
+
+.footer__creditos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#183118;
+    font-weight: 600;
+}
+
+.footer__creditos--copyright{
+    font-size: 12px;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    justify-content: right;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#3c5e3e;
+    font-weight: 500;
+}

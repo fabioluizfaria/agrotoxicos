@@ -1,0 +1,174 @@
+.body {
+  width: 940px 940px;
+  background-color: #798de9;
+}
+
+.header div {
+  background-color: rgb(29, 3, 182);
+}
+
+.logotb{
+  margin: 15px 30px 15px 375px;
+  width: 100px;
+}
+
+.menu{
+  position: absolute;
+  display: inline-block;
+  margin: 55px 50px 50px 30px;
+}
+
+.item{
+  display:inline-block;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.link{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+.linkc{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111111;
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+
+.link:hover{
+  color: rgb(247, 162, 3);
+  text-decoration: underline;
+}
+
+.integrantes h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.alunos{
+  display: inline-block;
+  padding: 0px 0;
+  margin: 0px 180px 0px 200px;
+  text-align: center;
+}
+
+.alunos li{
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+
+.alunos h2{
+  font-size: 25px;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  transition: 0.5s all;
+}
+
+.alunos li:hover h2{
+  transform: scale(1.05);
+}
+
+
+.alunos p{
+  text-align: center;
+  font-style:italic;
+  width: 275px;
+  font-size: 20px;
+  margin: 0 0 5px 0;
+  transition: 0.5s all;
+}
+
+.alunos li:hover p{
+  transform: scale(1.05);
+  margin: 2px 0px 0px 0px;
+}
+
+.alunos img{
+  width: 250px;
+  height: 250px;
+  border-radius: 3px;
+  margin: 5px 0px 7px 0px;
+  transition: 0.5s all;
+}
+
+.alunos li:hover img{
+  transform: scale(1.05);
+}
+
+.prof{
+  width: 1200px;
+  padding: 0px 0px 17px 0px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.prof li{
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+
+.prof h2{
+  font-size: 25px;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  transition: 0.5s all;
+}
+
+.prof li:hover h2{
+  transform: scale(1.05);
+}
+
+.prof img{
+  width: 250px;
+  height: 250px;
+  border-radius: 3px;
+  margin: 5px 0px 7px 0px;
+  transition: 0.5s all;
+}
+
+.prof li:hover img{
+  transform: scale(1.05);
+}
+
+.prof p{
+  font-size: 20px;
+  transition: 0.5s all;
+  margin: 0 0 5px 0;
+}
+
+.prof li:hover p{
+  transform: scale(1.05);
+  margin: 2px 0px 5px 0px;
+}
+
+.prof a{
+  transition: 0.5s all;
+}
+
+.prof li:hover a{
+  transform: scale(1.05);
+  color: #ffffff;
+  text-transform: none;
+}
+
+.rodape {
+  background-color: rgb(29, 3, 182);
+  color: #ffffff;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  bottom: 0px;
+  width: 100%;
+}

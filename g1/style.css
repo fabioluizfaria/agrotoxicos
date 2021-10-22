@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.cabecalho img{
+    width: 200px;
+}
+
+.cabecalho h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    right: 37%;
+    top: 80px;
+}
+
+.cabecalho {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(167, 238, 95);
+}
+.cabecalho h1{
+    width: 200px;
+}
+.cabecalho h2{
+    font-weight: bold;
+    font-size:40px;
+    position: absolute;
+    top: 100px;
+    right: 40%;
+}
+.cabecalho p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rodape{
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 0px;
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+<DOCTYPE html>
+	<html lang="pt - br">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Contato</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="contato.css" />
+	</head>
+
+	<body class="body" link="#111111" vlink="#111111">
+		<header class="header">
+			<div>
+				<nav>
+					<img class="logotb" src="imagens/livro-de-contato.png">
+                    <ul class="menu">
+                        <li class="item"><a class="link" href="index.html">Início</a></li>
+                        <li class="item"><a class="link" href="quemSomos.html"">Quem Somos</a></li>
+                        <li class="item"><a class="linkc" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+          <form class="formulario" action="arquivoqQueReceberaOsDados.x" method="POST">
+            <br/>
+            <label for="nometraveco">Nome</label>
+            <input class="input" type="text" id="nome" required placeholder=" Fulano Ciclano">
+
+            <label for="email">E-mail</label>
+            <input class="input" type="email" id="email" required placeholder="  fulano.ciclano@gmail.com">
+
+            <label for="numero">Telefone</label>
+            <input class="input" type="number" id="numero" rows="13" required placeholder="  (xx) xxxxx-xxxx ">
+
+            <label class="msg" >Mensagem</label>
+            <textarea class="msg.camp"  type="text" id="nome" required cols="98" rows="5" id="mensagem"></textarea>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+        </form>
+        </main>
+
+          <footer class="rodape">
+            &copy; Jackeline Santos, Kayky Esteves e Mary Cardoso, 2021
+          </footer>
+
+    </body>
+
+    </html>

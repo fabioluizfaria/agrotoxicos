@@ -1,0 +1,115 @@
+.cabecalho {
+    background-color: rgb(167, 238, 95);
+}
+
+.alunos{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alunos li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    padding: 30px 0;
+
+}
+.alunos h2{
+    background-color: rgb(56, 160, 87);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.alunos img {
+    width: 200px;
+}
+.alunos p{
+    text-align: justify;
+    width: 200px;
+    padding: 20px 0;
+}
+
+.profs{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profs li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    padding: 30px 0;
+}
+
+.link2{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.link2:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.profs h2{
+    background-color: rgb(56, 160, 87);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.profs img {
+    width: 200px;
+}
+
+.profs p{
+    text-align: justify;
+    width: 200px;
+    padding: 20px 0;
+}
+
+.menu2{
+    position: absolute;
+    top: 5px;
+    right: 0%;
+}
+
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu :hover {
+    color: rgb(34, 99, 22);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rodape{
+    background-color:rgb(167, 238, 95);
+    color: black;
+}
